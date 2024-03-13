@@ -17,11 +17,11 @@ This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks an
   - `wang2016` folder with input structures and predictions for proteins from Wang, et al. (2016).
   - `dG_pred_SI.ipynb` jupyter notebook to reproduce all the analysis and figures used in the manuscript
 
-**N.B.: due to the large size of the dataset the Tsuboyama,2023 experimental results are not included in the Github repository, if you wish to download the dG_pred_notebook, please download the data from the [manuscript SI](https://www.nature.com/articles/s41586-023-06328-6) zenodo repository and move the `Tsuboyama2023_Dataset2_Dataset3_20230416.csv` file into the exp_score folder**
+**N.B.: due to the large size of the dataset the Tsuboyama,2023 experimental results are not included in the Github repository, if you wish to download the dG_pred_notebook, please download the data from the manuscript [Supplementary Information](https://www.nature.com/articles/s41586-023-06328-6) zenodo repository and move the `Tsuboyama2023_Dataset2_Dataset3_20230416.csv` file into the exp_score folder**
     
-## Functional Model Notebook
+## Absolute stability prediction notebook
 ### Usage
-To run the Prediction Colaboratory Notebook, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/_2022_functional-sites-cagiada/blob/main/Functional_site_model.ipynb).
+To run the prediction Notebook, we suggest to open it in [Google Colaboratory](https://colab.research.google.com/), it can be open clicking [here](https://colab.research.google.com/github/KULL-Centre/_2024_cagiada_stability/blob/main/stab_ESM_IF.ipynb).
 To run the Notebook is necessary to follow different steps:
 1 Run the cells with the PRELIMINARY OPERATIONS prefix, this will install all the dependencies and load the required functions to run the predictor.
 2 Upload all the structure and additional information in the `DATA UPLOADING` cell. Specifically in required to:
@@ -74,17 +74,17 @@ dG_kcalmol  13
 ### Extra
 #### License:
 
-The source code and model's parameters are licensed under the permissive Apache Licence, Version 2.0.
+The source code and parameters of model are licensed under the permissive Apache Licence, Version 2.0.
 
 #### Bugs:
 
-For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2022_functional-sites-cagiada) or contact one of the listed authors in the connected [manuscript](https://doi.org/10.1038/s41467-023-39909-0).
+For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2024_cagiada_stability) or contact one of the listed authors in the connected [manuscript](https://doi.org/).
 
 #### Citing this work:
 
 If you use our model please cite:
 
-Cagiada, Matteo, Sergey Ovchinnikov, and Kresten Lindorff-Larsen. 2023. “Discovering Functionally Important Sites in Proteins.” Nature Communications 14 (1): 1–13. https://doi.org/10.1038/s41467-023-39909-0.
+Cagiada, Matteo, Sergey Ovchinnikov, and Kresten Lindorff-Larsen. 2023. “Predicting absolute protein folding stability using generative models.” add details upon publication.
 ```
 
 @ARTICLE{Cagiada2024-pe,
