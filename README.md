@@ -1,7 +1,7 @@
 # _2024_cagiada_stability
 # Predicting absolute protein folding stability using generative models
 
-This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks and used data for reproducing the work of the scientific paper `Predicting absolute protein folding stability using generative models` by M. Cagiada, S. Ovchinnikov and K. Lindorff-Larsen, 2023, biorxiv (1): 1–13. [https://doi.org/](https://doi.org/).
+This repository contains Python code, [Jupyter](http://jupyter.org) Notebooks and used data for reproducing the work of the scientific paper `Predicting absolute protein folding stability using generative models` by M. Cagiada, S. Ovchinnikov and K. Lindorff-Larsen,  Protein Science 34.1 (2025): e5233. [https://doi.org/10.1002/pro.5233](https://doi.org/10.1002/pro.5233).
 
 ## Layout
 - `stab_ESM-IF.ipynb` Jupyter Notebook to generate new stability prediction, it can be run using the Google Colaboratory system.
@@ -78,23 +78,24 @@ The source code and parameters of model are licensed under the permissive Apache
 
 #### Bugs:
 
-For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2024_cagiada_stability) or contact one of the listed authors in the connected [manuscript](https://doi.org/).
+For any bugs please report the issue on the project [Github](https://github.com/KULL-Centre/_2024_cagiada_stability) or contact one of the listed authors in the connected [manuscript](https://doi.org/10.1002/pro.5233).
 
 #### Citing this work:
 
 If you use our model please cite:
 
-Cagiada, Matteo, Sergey Ovchinnikov, and Kresten Lindorff-Larsen. 2023. “Predicting absolute protein folding stability using generative models.” add details upon publication.
+Cagiada, Matteo, Sergey Ovchinnikov, and Kresten Lindorff‐Larsen. "Predicting absolute protein folding stability using generative models." Protein Science 34.1 (2025): e5233.
 ```
 
-@ARTICLE{Cagiada2024-pe,
-  title     = "Predicting absolute protein folding stability using generative models",
-  author    = "Cagiada, Matteo and Ovchinnikov, Sergey and Lindorff-Larsen, Kresten",
-  journal   = "",
-  publisher = "",
-  volume    =  ,
-  year      =  2024,
-  language  = "en"
+@article{cagiada2025predicting,
+  title={Predicting absolute protein folding stability using generative models},
+  author={Cagiada, Matteo and Ovchinnikov, Sergey and Lindorff-Larsen, Kresten},
+  journal={Protein Science},
+  volume={34},
+  number={1},
+  pages={e5233},
+  year={2025},
+  publisher={Wiley Online Library}
 }
 
 ```
